@@ -6,7 +6,7 @@ import AdminSidebar from '../AdminSidebar/AdminSidebar';
 const MakeAdmin = () => {
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/makeAdmin', {
+        fetch('https://sleepy-basin-54466.herokuapp.com/makeAdmin', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data),

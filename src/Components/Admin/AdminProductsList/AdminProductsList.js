@@ -6,7 +6,7 @@ import AdminSidebar from '../AdminSidebar/AdminSidebar';
 const AdminProductsList = ({ dashboard }) => {
     const [allServiceList, setAllServiceList] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/loadProducts')
+        fetch('https://sleepy-basin-54466.herokuapp.com/loadProducts')
             .then(response => response.json())
             .then(data => {
                 setAllServiceList(data);

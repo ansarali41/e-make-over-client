@@ -28,7 +28,7 @@ const Order = ({ dashboard }) => {
         formData.append('title', title);
         formData.append('price', price);
 
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://sleepy-basin-54466.herokuapp.com/addOrder', {
             method: 'POST',
             body: formData,
         })
@@ -44,7 +44,7 @@ const Order = ({ dashboard }) => {
     };
 
     useEffect(() => {
-        fetch('http://localhost:5000/loadProducts')
+        fetch('https://sleepy-basin-54466.herokuapp.com/loadProducts')
             .then(response => response.json())
             .then(result => {
                 setAllServices(result);

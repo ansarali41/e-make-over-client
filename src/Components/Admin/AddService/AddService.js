@@ -18,7 +18,7 @@ const AddService = () => {
         formData.append('description', data.description);
         formData.append('price', data.price);
 
-        fetch('http://localhost:5000/addProducts', {
+        fetch('https://sleepy-basin-54466.herokuapp.com/addProducts', {
             method: 'POST',
             body: formData,
         })

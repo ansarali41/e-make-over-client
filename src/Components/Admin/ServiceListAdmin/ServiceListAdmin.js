@@ -6,7 +6,7 @@ import AllServiceListDetails from '../AllServiceListDetails/AllServiceListDetail
 const ServiceListAdmin = ({ dashboard }) => {
     const [allServiceList, setAllServiceList] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allService')
+        fetch('https://sleepy-basin-54466.herokuapp.com/allService')
             .then(response => response.json())
             .then(data => {
                 setAllServiceList(data);

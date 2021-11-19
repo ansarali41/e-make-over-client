@@ -9,7 +9,7 @@ const NavMenu = () => {
     const [user, setUser] = useContext(UserContext);
     const [isAdmin, setIsAdmin] = useState(false);
     useEffect(() => {
-        fetch(`http://localhost:5000/isAdmin/${user.email}`)
+        fetch(`https://sleepy-basin-54466.herokuapp.com/isAdmin/${user.email}`)
             .then(res => res.json())
             .then(data => {
                 if (data.length) {

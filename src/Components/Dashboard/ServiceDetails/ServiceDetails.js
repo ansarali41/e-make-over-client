@@ -17,7 +17,7 @@ const ServiceDetails = ({ service }) => {
     }
     // delete user task or event from admin
     const deleteRegistrationOfUser = id => {
-        fetch(`http://localhost:5000/deleteService/${id}`, {
+        fetch(`https://sleepy-basin-54466.herokuapp.com/deleteService/${id}`, {
             method: 'DELETE',
         })
             .then(response => response.json())

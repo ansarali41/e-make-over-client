@@ -6,7 +6,7 @@ const ProvideServices = () => {
     const [allServices, setAllServices] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/loadProducts')
+        fetch('https://sleepy-basin-54466.herokuapp.com/loadProducts')
             .then(response => response.json())
             .then(result => {
                 const newResult = result.slice(0, 6);
