@@ -10,7 +10,6 @@ const Review = () => {
     const onSubmit = data => {
         let newData = { ...data };
         newData.image = user.photo;
-        console.log(newData);
 
         fetch('https://fathomless-tundra-06496.herokuapp.com/addReview', {
             method: 'POST',

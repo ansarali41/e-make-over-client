@@ -12,7 +12,6 @@ const Order = ({ dashboard }) => {
     const [allServices, setAllServices] = useState([]);
     const { id } = useParams();
     const service = allServices.filter(service => service._id === id);
-    console.log(id);
 
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {

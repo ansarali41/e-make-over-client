@@ -8,7 +8,6 @@ const ServiceList = () => {
     const [user, setUser] = useContext(UserContext);
     const [services, setServices] = useState([]);
     const [fetching, setFetching] = useState(true);
-    console.log(services);
     useEffect(() => {
         fetch(`https://sleepy-basin-54466.herokuapp.com/serviceList/${user.email}`)
             .then(response => response.json())

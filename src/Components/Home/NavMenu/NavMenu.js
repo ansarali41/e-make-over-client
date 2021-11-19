@@ -17,15 +17,21 @@ const NavMenu = () => {
                 }
             });
     }, [user.email]);
+
+    const userDetails = localStorage.getItem('user');
     const userLogOut = () => {
-        logOutHandler().then(res => {
-            if (sessionStorage.getItem('token')) {
-                sessionStorage.removeItem('token');
-            }
-            setUser(res);
+        if (userDetails.name === '') {
+            logOutHandler().then(res => {
+                setUser(res);
+            });
+        }
+        localStorage.removeItem('user');
+        setUser({
+            displayName: '',
+            email: '',
+            photo: '',
         });
     };
-
     return (
         <Navbar bg="light-" expand="lg" className="container nav-menu-container">
             <Navbar.Brand>
