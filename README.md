@@ -1,6 +1,6 @@
-Creative Agency <br/>
+E MakeOver<br/>
 Project description: <br/>
-◉ This is a traveling agency type website. <br/>
+◉ This is a MakeOver Product selling website. <br/>
 
 ➤ Features:
 
