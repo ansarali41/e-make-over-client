@@ -1,0 +1,27 @@
+.brand-text {
+  color: #111430;
+}
+.brand-btn {
+  color: #fff;
+  background: #111430;
+}
+.brand-btn:hover {
+  color: #fff;
+  background: #111430;
+}
+.navy-bg{
+  background-color: #111430;
+}
+.text-light-green{
+  color: #7AB259;
+}
+.dashboard-bg{
+  background-color: #E5E5E5;
+  border-radius: 10px;
+}
+.zoom-out {
+    transition: ease .25s;
+}
+.zoom-out:hover {
+    transform: scale(1.1);
+}
