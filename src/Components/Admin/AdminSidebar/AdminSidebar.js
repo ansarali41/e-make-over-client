@@ -25,7 +25,7 @@ const AdminSidebar = () => {
 
                 <li>
                     <Link to="/makeAdmin" className="text-dark">
-                        <FontAwesomeIcon icon={faUserPlus} /> <span>Make new Admin</span>
+                        <FontAwesomeIcon icon={faUserPlus} /> <span>Make Admin</span>
                     </Link>
                 </li>
             </ul>
