@@ -15,13 +15,15 @@ import MakeAdmin from './Components/Admin/MakeAdmin/MakeAdmin';
 import Dashboard from './Components/Dashboard/Dashboard/Dashboard';
 import Products from './Components/Products/Products';
 import About from './Components/About/About';
+import Payment from './Components/Dashboard/Payment/Payment';
+import AdminProductsList from './Components/Admin/AdminProductsList/AdminProductsList';
 
 export const UserContext = createContext();
 
 function App() {
     const [user, setUser] = useState({
-        displayName: 'sanzida',
-        email: 'sanzida@gmail.com',
+        displayName: 'Ansar',
+        email: 'ansar.ict14@gmail.com',
         photo: 'https://lh3.googleusercontent.com/a-/AOh14GjGDWDvTge5bjoANXcIOXqWIEnXevfvamt7FRm82w=s96-c',
     });
     // const [user, setUser] = useState({
@@ -49,8 +51,15 @@ function App() {
                         <Review></Review>
                     </PrivateRoute>
 
+                    <PrivateRoute path="/payment">
+                        <Payment />
+                    </PrivateRoute>
+
                     <PrivateRoute path="/serviceListAdmin">
                         <ServiceListAdmin />
+                    </PrivateRoute>
+                    <PrivateRoute path="/manageProducts">
+                        <AdminProductsList />
                     </PrivateRoute>
 
                     <PrivateRoute path="/addService">

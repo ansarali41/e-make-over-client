@@ -2,7 +2,7 @@ import React from 'react';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 
-const options = ['pending', 'done'];
+const options = ['pending', 'shipped'];
 
 const AllServiceListDetails = ({ serviceList }) => {
     const { name, title, phone, email, status, _id } = serviceList;

@@ -1,4 +1,4 @@
-import { faBox, faPlus, faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import { faBox, faPlus, faTasks, faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -9,18 +9,23 @@ const AdminSidebar = () => {
             <ul className="list-unstyled">
                 <li>
                     <Link to="/serviceListAdmin" className="text-dark">
-                        <FontAwesomeIcon icon={faBox} /> <span>Service list</span>
+                        <FontAwesomeIcon icon={faBox} /> <span>Products list</span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/addService" className="text-dark">
-                        <FontAwesomeIcon icon={faPlus} /> <span>Add Service</span>
+                        <FontAwesomeIcon icon={faPlus} /> <span>Add Products</span>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/manageProducts" className="text-dark">
+                        <FontAwesomeIcon icon={faTasks} /> <span>Manage Products</span>
                     </Link>
                 </li>
 
                 <li>
                     <Link to="/makeAdmin" className="text-dark">
-                        <FontAwesomeIcon icon={faUserPlus} /> <span>Make Admin</span>
+                        <FontAwesomeIcon icon={faUserPlus} /> <span>Make new Admin</span>
                     </Link>
                 </li>
             </ul>

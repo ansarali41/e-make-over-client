@@ -25,10 +25,11 @@ const About = () => {
                                     <h4>What we Have!</h4>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam magni commodi provident, ex cumque distinctio, illo praesentium incidunt nisi
-                                    id sunt, aspernatur culpa adipisci est reprehenderit alias officiis quae quidem. Minus vitae eos laudantium ab asperiores, quisquam illo
-                                    repellat eius expedita quae dolore fuga doloremque fugiat nam odio eligendi? Modi tempora deserunt id delectus ipsa et sint natus, magni
-                                    tempore.
+                                    A makeover is a radical change in appearance. When the word is used to describe a change in human physical appearance, it may imply a change in
+                                    clothing, haircut, or cosmetics. A personal makeover might also include plastic surgery, dental veneers, or contact lenses. Sometimes a makeover
+                                    is used to refer to non-physical things, such as a makeover of character, personality or attitude. It can also refer to a dramatic change in
+                                    construction, such as when a building is renovated or is refurbished. Makeovers are usually referred to in a positive manner, as a way to start
+                                    fresh or improve your life.
                                 </p>
 
                                 <div className="counter ">
