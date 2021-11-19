@@ -21,15 +21,15 @@ import AdminProductsList from './Components/Admin/AdminProductsList/AdminProduct
 export const UserContext = createContext();
 
 function App() {
-    const [user, setUser] = useState({
-        displayName: 'Ansar',
-        email: 'ansar.ict14@gmail.com',
-        photo: 'https://lh3.googleusercontent.com/a-/AOh14GjGDWDvTge5bjoANXcIOXqWIEnXevfvamt7FRm82w=s96-c',
-    });
     // const [user, setUser] = useState({
-    //     displayName: '',
-    //     email: '',
+    //     displayName: 'Ansar',
+    //     email: 'ansar.ict14@gmail.com',
+    //     photo: 'https://lh3.googleusercontent.com/a-/AOh14GjGDWDvTge5bjoANXcIOXqWIEnXevfvamt7FRm82w=s96-c',
     // });
+    const [user, setUser] = useState({
+        displayName: '',
+        email: '',
+    });
 
     return (
         <UserContext.Provider className="container" value={[user, setUser]}>

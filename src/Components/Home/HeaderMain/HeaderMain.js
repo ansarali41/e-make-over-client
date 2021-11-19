@@ -20,7 +20,7 @@ const HeaderMain = () => {
                             <button className="Buy-now">Buy Now</button>
                         </div>
                         <div>
-                            <img className="d-block w-100" style={{ height: 400 }} src="https:i.ibb.co/SrbVm1D/FA-130.png" alt="First slide" />
+                            <img className="d-block w-100" style={{ height: 400 }} src="https://i.ibb.co/SrbVm1D/FA-130.png" alt="First slide" />
                         </div>
                     </div>
                 </Carousel.Item>
@@ -33,7 +33,7 @@ const HeaderMain = () => {
                             <button className="Buy-now">Buy Now</button>
                         </div>
                         <div>
-                            <img className="d-block w-100" style={{ height: 400 }} src="https:i.ibb.co/pbkvt0V/red-lipstick.png" alt="Second slide" />
+                            <img className="d-block w-100" style={{ height: 400 }} src="https://i.ibb.co/pbkvt0V/red-lipstick.png" alt="Second slide" />
                         </div>
                     </div>
                 </Carousel.Item>
@@ -46,7 +46,7 @@ const HeaderMain = () => {
                             <button className="Buy-now">Buy Now</button>
                         </div>
                         <div>
-                            <img className="d-block w-100" style={{ height: 400 }} src="https:i.ibb.co/9svYcqR/shadow.png" alt="Third slide" />
+                            <img className="d-block w-100" style={{ height: 400 }} src="https://i.ibb.co/9svYcqR/shadow.png" alt="Third slide" />
                         </div>
                     </div>
                 </Carousel.Item>
